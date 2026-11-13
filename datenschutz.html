@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Datenschutzerklärung – KI-Trading-Firma Brücke</title>
+</head>
+<body>
+<h1>Datenschutzerklärung der Anwendung „KI-Trading-Firma Brücke“</h1>
+<p>Stand: 13.11.2026</p>
+<h2>Geltungsbereich</h2>
+<p>Diese Erklärung beschreibt die private Anwendung „KI-Trading-Firma Brücke“. Sie wird ausschließlich von ihrem Inhaber mit seinem eigenen Google-Konto genutzt. Ein Zugang für andere Nutzer wird nicht angeboten.</p>
+<h2>Verarbeitete Daten und Zweck</h2>
+<p>Die Anwendung liest Steuerinformationen und referenzierte Ausgabedateien aus dem eingerichteten Google-Cloud-Storage-Arbeitsbereich. Dazu gehören Paketverweise, Statusinformationen, Prüfsummen und die zur Übertragung bestimmten Dateien. Sie verändert die Quelldateien in Cloud Storage nicht.</p>
+<p>Die Anwendung prüft das Ausgabepaket und überträgt es in einen von ihr angelegten Ordner in Google Drive. Vorhandene Paketdateien werden nicht überschrieben. Die von der Anwendung angelegten Verweis- und Statusdateien werden aktualisiert.</p>
+<p>Für den automatischen Betrieb verwaltet die Anwendung einen Zeitauslöser. In den Skripteigenschaften von Google Apps Script speichert sie technische Betriebsdaten, insbesondere Projektkennung, Speicherbereich, Kennungen der angelegten Drive-Ordner und -Dateien sowie den zuletzt verarbeiteten und den aktiven Paketstand.</p>
+<p>Die Anwendung schreibt Betriebs- und Fehlermeldungen in die von Google bereitgestellten Ausführungsprotokolle und in Cloud Logging. Dazu gehören Ereignisnamen, Ergebnisse, Paketkennungen und bei der Einrichtung die Kennung des angelegten Drive-Ordners. Außerdem ist die Protokollierung von Ausnahmen eingeschaltet.</p>
+<h2>Dienste und Weitergabe</h2>
+<p>Die Anwendung verwendet Google Apps Script, Google Cloud Storage, Google Drive und die Protokolldienste von Google. Sie überträgt die verarbeiteten Dateien ausschließlich zwischen diesen Google-Diensten. Sie sendet keine Dateiinhalte an GitHub oder an einen KI-Anbieter und verwendet die Daten nicht für Werbung.</p>
+<p>Eine vom Inhaber gesondert eingerichtete Verbindung von Google Drive zu Claude oder zu anderen Anwendungen ist nicht Teil dieser Anwendung. Ein solcher Zugriff ist eine eigenständige Verarbeitung.</p>
+<p>Die Verwendung von Daten aus Google-APIs erfolgt entsprechend der Google API Services User Data Policy einschließlich der jeweils anwendbaren Anforderungen zur eingeschränkten Nutzung (Limited Use): <a href="https://developers.google.com/terms/api-services-user-data-policy">https://developers.google.com/terms/api-services-user-data-policy</a></p>
+<h2>Aufbewahrung, Beenden und Löschen</h2>
+<p>Die Anwendung löscht ihre angelegten Paketdateien nicht automatisch. Der Inhaber verwaltet deren Aufbewahrung in Google Drive. Die Skripteigenschaften bleiben bis zu ihrer Entfernung erhalten; für technische Protokolle gelten die eingestellten oder von Google vorgegebenen Aufbewahrungsfristen.</p>
+<p>Zum Beenden der automatischen Übertragung entfernt der Inhaber den Zeitauslöser. Das allein löscht keine Dateien und keine bereits gespeicherten Betriebsdaten.</p>
+<p>Der Inhaber kann die angelegten Drive-Dateien und die Skripteigenschaften entfernen sowie die Verbindung zur Anwendung in den Einstellungen seines Google-Kontos widerrufen: <a href="https://myaccount.google.com/connections">https://myaccount.google.com/connections</a>. Ein Widerruf löscht bereits gespeicherte Daten nicht automatisch.</p>
+<h2>Diese Informationsseiten</h2>
+<p>Die Informationsseiten enthalten keine Dateien der Anwendung. Sie werden über GitHub Pages bereitgestellt; GitHub verarbeitet beim Aufruf technische Besuchsdaten, darunter die IP-Adresse. Dafür und für öffentliche Issues im Repository gilt die Datenschutzerklärung von GitHub: <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement</a></p>
+<h2>Kontakt</h2>
+<p>Über die Issues des Repositorys: <a href="https://github.com/alamaniz/ki-trading-firma-bruecke/issues">https://github.com/alamaniz/ki-trading-firma-bruecke/issues</a>. Inhalte in Issues sind öffentlich; dort bitte keine Zugangsdaten, vertraulichen Protokolle oder privaten Dateien einstellen.</p>
+</body>
+</html>
